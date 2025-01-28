@@ -1232,6 +1232,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 /**
  * responsive larger than 450px screen
  */
+ @media (max-width: 450px){
+  .info-content .name {
+    font-size: 4.5vw;
+  }
+  .info-content .title {
+      font-size: 3.5vw;
+    }
+ }
 
 @media (min-width: 450px) {
 
